@@ -21,12 +21,6 @@ option = ''
 
 if classification_space == "Chinese":
     option = 'zh'
-elif classification_space == "Spanish":
-    option = 'es'
-elif classification_space == "German":
-    option = 'de'
-elif classification_space == "French":
-    option = 'fr'
 
 #TASK 2
 #for language codes have a look at https://cloud.google.com/translate/docs/languages
