@@ -38,6 +38,17 @@ elif classification_space == "French":
 
 if st.button('Translate'):
     from_code = "en"
+
+    option = '' 
+    if classification_space == "Chinese":
+        option = "zh"
+    elif classification_space == "Spanish":
+        option = "es"
+    elif classification_space == "German":
+        option = "de"
+    elif classification_space == "French":
+        option = "fr"
+    
     package_to_install = next(
         filter(
             lambda x: x.from_code == from_code and x.to_code == option, available_packages
