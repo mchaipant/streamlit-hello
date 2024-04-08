@@ -14,7 +14,7 @@ text = st.text_input("Enter input:", "")
 
 #methods
 #TASK 1
-cs = ["Chinese"]#add options for spanish, german and french. You need to edit the cs list.
+cs = ["Chinese", "Spanish", "German", "French"]#add options for spanish, german and french. You need to edit the cs list.
 #after you add options the sidebar would show 4 languages
 classification_space = st.sidebar.selectbox("Language to be translated into:", cs)
 option = ''
